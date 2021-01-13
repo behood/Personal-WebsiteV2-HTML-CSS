@@ -1,0 +1,116 @@
+<!DOCTYPE css>
+
+/*Need to implement color variables*/
+:root {
+    --BoogieWhite: #eeecde;
+    --BoogieNavy: #142141;
+    --BoogieBlue: #2477bb;
+    --BoogiePink: #e48694;
+    --BoogieTan: #e7c8b4;
+    --BoogieGrey: #748898;
+}
+
+@font-face {
+  font-family: "TerminatorBold";
+  src: url('fonts/PredatorMovie-zEyw.ttf') format('truetype');
+}
+
+.main-and-footer-wrapper{
+  max-width: 1024px;
+  min-width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-links{
+
+  background-color:#2477bb;
+
+}
+
+body{
+   background-color: #748898
+
+}
+header{
+
+   background-color: #142141;
+
+}
+
+main{
+
+   background-color:white;
+   padding: 1em;
+
+}
+footer{
+
+   background-color:#2477bb;
+   padding: 1em;
+}
+
+h1{
+   color: #eeecde;
+   font-size: 4em;
+   font-family: "TerminatorBold", 'Courier New', monospace;
+}
+
+nav > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display:inline-grid;
+}
+
+a{
+  font-family: sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  background-color: #e48694;
+}
+
+a:visited{
+  color: #eeecde;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #748898;
+}
+
+.nav-bar{
+
+  background-color:#2477bb;
+  padding: 1em;
+  clear:both;
+}
+
+.left-nav-buttons{
+  float:left;
+}
+
+.right-nav-buttons{
+  float:right;
+}
+
+.better-link-text{
+  background-color: #e48694;
+  color:#eeecde;
+  padding: 1em, 1.5em;
+  text-decoration: none;
+}
+
+#about-me{
+
+  margin-left: 3em auto;
+  margin-right: 3em auto;
+}
